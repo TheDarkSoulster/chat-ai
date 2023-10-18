@@ -6,16 +6,16 @@ import { IconArrowRight } from '@/components/ui/icons'
 
 const exampleMessages = [
   {
-    heading: 'Explain technical concepts',
-    message: `What is a "serverless function"?`
+    heading: 'Answer controversial questions',
+    message: `Is Artificial Intelligence Dangerous?`
   },
   {
     heading: 'Summarize an article',
-    message: 'Summarize the following article for a 2nd grader: \n'
+    message: 'Summarize the following article: \n'
   },
   {
     heading: 'Draft an email',
-    message: `Draft an email to my boss about the following: \n`
+    message: `Draft an email about: \n`
   }
 ]
 
@@ -24,13 +24,13 @@ export function EmptyScreen({ setInput }: Pick<UseChatHelpers, 'setInput'>) {
     <div className="mx-auto max-w-2xl px-4">
       <div className="rounded-lg border bg-background p-8">
         <h1 className="mb-2 text-lg font-semibold">
-          Welcome to Next.js AI Chatbot!
+          Welcome to ChatX!
         </h1>
         <p className="mb-2 leading-normal text-muted-foreground">
-          This is an open source AI chatbot app template built with{' '}
-          <ExternalLink href="https://nextjs.org">Next.js</ExternalLink> and{' '}
-          <ExternalLink href="https://vercel.com/storage/kv">
-            Vercel KV
+          This is an AI Chatbot trained to help out on educational concepts developed by {' '}
+          <ExternalLink href="https://example.com">PIXL Studios</ExternalLink> for {' '}
+          <ExternalLink href="https://explorex-webapp.vercel.app">
+            ExploreX
           </ExternalLink>
           .
         </p>
